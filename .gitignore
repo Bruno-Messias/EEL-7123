@@ -39,3 +39,5 @@ Course FPGA/incremental_db/README
 *.sld
 *.done
 *.sof
+Course FPGA/Mux_4bits/incremental_db/README
+*.qws
