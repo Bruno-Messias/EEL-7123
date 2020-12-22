@@ -1,0 +1,11 @@
+
+*.bak
+*.qpf
+*.qsf
+*.rdb
+*.db_info
+*.qmsg
+*.flock
+*.sci
+*.rpt
+*.summary
