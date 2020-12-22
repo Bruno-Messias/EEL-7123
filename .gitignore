@@ -41,3 +41,13 @@ Course FPGA/incremental_db/README
 *.sof
 Course FPGA/Mux_4bits/incremental_db/README
 *.qws
+*.mti
+*.mpf
+Course FPGA/Adder_4bits/incremental_db/README
+*.wlf
+Course FPGA/Adder_4bits/work/_info
+*.qdb
+*.qdb
+*.qpg
+*.qtl
+Course FPGA/Adder_4bits/work/_vmake
