@@ -1,2 +1,2 @@
 # EEL-7123
- Repopsitório da disciplina Tópicos Avaçados em Sistemas Digitais
+ Repositório da disciplina Tópicos Avaçados em Sistemas Digitais
