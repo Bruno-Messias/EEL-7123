@@ -1,0 +1,73 @@
+# Reading pref.tcl
+# do Lab1_2_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab1_2/fulladder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:03:13 on Feb 16,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab1_2/fulladder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fulladder
+# -- Compiling architecture circuito_logico of fulladder
+# End time: 22:03:14 on Feb 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab1_2/adder_8bits.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:03:14 on Feb 16,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab1_2/adder_8bits.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity adder_8bits
+# -- Compiling architecture circuito_logico of adder_8bits
+# End time: 22:03:15 on Feb 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab1_2/mult3.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:03:15 on Feb 16,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab1_2/mult3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mult3
+# -- Compiling architecture mult3_logic of mult3
+# End time: 22:03:15 on Feb 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab1_2/usertop.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:03:15 on Feb 16,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab1_2/usertop.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity usertop
+# -- Compiling architecture compile of usertop
+# End time: 22:03:15 on Feb 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.mult3(mult3_logic)
+# vsim work.mult3(mult3_logic) 
+# Start time: 22:03:30 on Feb 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.mult3(mult3_logic)
+# Loading work.adder_8bits(circuito_logico)
+# Loading work.fulladder(circuito_logico)
+add wave -position insertpoint  \
+sim:/mult3/D \
+sim:/mult3/F
+force -freeze sim:/mult3/D 00111100 0
+run
+# End time: 22:04:39 on Feb 16,2021, Elapsed time: 0:01:09
+# Errors: 0, Warnings: 0
