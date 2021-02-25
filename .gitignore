@@ -51,3 +51,15 @@ Course FPGA/Adder_4bits/work/_info
 *.qpg
 *.qtl
 Course FPGA/Adder_4bits/work/_vmake
+Lab1_RNS/incremental_db/README
+*.ini
+Lab1_RNS/simulation/modelsim/rtl_work/_info
+Lab1_RNS/simulation/modelsim/msim_transcript
+Lab1_RNS/simulation/modelsim/rtl_work/_vmake
+Lab1_RNS/simulation/modelsim/test_rns_bin
+*.sft
+*.vho
+*.xrf
+*.do
+*.bak1
+*.bak2

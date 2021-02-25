@@ -23,9 +23,9 @@ signal c_intermed : STD_LOGIC_VECTOR(n downto 0);
 
 begin
   		
-CSA_1: for j in 0 to n-1 generate
+CSA_IEAC_1: for j in 0 to n-1 generate
 	cpa_1: fulladder port map (A => I0(j), B => I1(j), Cin => I2(j), S => S(j), Cout => c_intermed(j));
-end generate CSA_1;
+end generate CSA_IEAC_1;
 
 c <= c_intermed(n-2 downto 0) & not(c_intermed(n-1));
   		

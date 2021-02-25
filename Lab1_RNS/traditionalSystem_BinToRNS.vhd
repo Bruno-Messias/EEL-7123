@@ -57,7 +57,7 @@ architecture Structural of traditionalSystem_BinToRNS is
          );
   end component;
   
-signal zeros , corr : std_logic_vector(n-1 downto 0);
+signal zeros , cor : std_logic_vector(n-1 downto 0);
 signal sum0_2n_m1 , carry0_2n_m1 : std_logic_vector(n-1 downto 0);
 signal sum1_2n_m1 , carry1_2n_m1 : std_logic_vector(n-1 downto 0);
 
@@ -72,7 +72,7 @@ signal notSW : std_logic_vector(4*n-1 downto 0);
 begin
 	-- enter your statements here -- 
 zeros <= (others =>'0');
-corr <= ("1000");	
+cor <= ("0001");	
 notSW(4*n-1 downto 0) <= not(SW(4*n-1 downto 0)); -- Para obter os negativos das entradas
 
 
@@ -98,7 +98,7 @@ comp0_2n_p1: CSA_IEAC generic map	(  n => n)
 comp1_2n_p1: CSA_IEAC generic map	(  n => n)
 	              port map (I0 => sum0_2n_p1, I1 => carry0_2n_p1, I2 => notSW(4*n-1 downto 3*n), S => sum1_2n_p1 , C => carry1_2n_p1); 
 comp2_2n_p1: CSA_IEAC generic map	(  n => n)
-	              port map ( I0 => corr , I1 => sum1_2n_p1, I2 => carry1_2n_p1, S =>sum2_2n_p1 , C =>carry2_2n_p1); --TODO (CORR = 0)
+	              port map ( I0 => cor , I1 => sum1_2n_p1, I2 => carry1_2n_p1, S =>sum2_2n_p1 , C =>carry2_2n_p1); --(COR = 1)
 					  
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
