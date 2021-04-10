@@ -111,7 +111,7 @@ begin
 
 ---- 1° Nível ----------------------------------------------------
 
-v1 <= '1' & D(3) & D(3);
+v1 <= D(3) & D(3) & '1';
 
 Comp0: comp_3 port map (v1, Cp0); 
 
@@ -161,18 +161,18 @@ v21 <= Cp1(5) & Cp2(5) & Cp3(0);
 
 Comp8: comp_223 port map(v19,v20,v21,Cp8);
 
-v22 <= Cp4(2) & Cp4(1) & Cp3(3);
+v22 <= Cp3(3) & Cp4(1) & Cp4(2);
 
 Comp9: comp_3 port map(v22,Cp9);
 
 ----- 3° Nível ----------------------------------------------------
 
-v23 <= Cp2(0) & Cp1(0) & Cp6(1);
+v23 <= Cp6(1) & Cp2(0) & Cp1(0);
 
 Comp10: comp_3 port map(v23,Cp10);
 
 
-v24 <= C(0) & Cp8(1) & Cp7(3);
+v24 <= Cp8(1) & Cp7(3) & C(0);
 
 Comp11: comp_3 port map(v24,Cp11);
 
@@ -192,7 +192,7 @@ Comp13: comp_3 port map(v27,Cp13);
 v28 <= Cp7(2) & Cp8(0);
 v29 <= Cp13(1) & Cp7(1);
   
-Comp14: comp_22 port map(v28,v29,Cp14);
+Comp14: comp_22 port map(v29,v28,Cp14); --Corrigido(entrada v29 -> v28)
 
 v30 <= Cp11(1) & Cp8(2);
 v31 <= Cp12(0) & Cp5(0);
