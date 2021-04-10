@@ -20,6 +20,9 @@ architecture rtl of vhdl_cap8 is
 signal cp0: std_logic_vector(1 downto 0);
 signal cp1, cp2: std_logic_vector(5 downto 0);
 signal cp3, cp4, cp5: std_logic_vector(3 downto 0);
+signal cp6: std_logic_vector(2 downto 0);
+signal cp7, cp8: std_logic_vector(3 downto 0);
+signal cp9: std_logic_vector(1 downto 0);
 -----------------------------------------------------------
 signal v1: std_logic_vector(2 downto 0);
 signal v2,v3,v4,v5,v6,v7: std_logic_vector(2 downto 0);
@@ -29,6 +32,10 @@ signal v10: std_logic_vector(1 downto 0);
 signal v11: std_logic_vector(4 downto 0);
 signal v12, v13: std_logic_vector(1 downto 0);
 signal v14: std_logic_vector(2 downto 0);
+signal v15, v16: std_logic_vector(1 downto 0);
+signal v17, v18: std_logic_vector(4 downto 0);
+signal v19, v20: std_logic_vector(1 downto 0);
+signal v21, v22: std_logic_vector(2 downto 0);
 
 --Components
 component comp_223 is
@@ -91,7 +98,7 @@ end component;
 --Logic
 begin 
 
--- 1° Nível
+---- 1° Nível ---------------------------------------------------
 
 v1 <= '1' & D(3) & D(3);
 
@@ -124,5 +131,31 @@ v13 <= C(2) & D(0);
 V14 <= A(3) & B(3) & C(3);
 
 Comp5: comp_223 port map(v12,v13,v14,Cp5);
+
+----- 2° Nível -------------------------------------------------
+
+v15 <= Cp0(1) & A(0);
+v16 <= Cp0(0) & '1';
+  
+Comp6: comp_22 port map(v16,v15,Cp6);
+
+v17 <= A(1) & Cp1(1) & Cp1(2) & Cp2(1) & Cp2(2);
+v18 <= A(2) & Cp1(3) & Cp1(4) & Cp2(3) & Cp2(4);
+
+Comp7: comp_55 port map(v17,v18,Cp7);
+
+v19 <= Cp3(2) & Cp4(0);
+v20 <= Cp3(1) & D(1);
+v21 <= Cp1(5) & Cp2(5) & Cp3(0);
+
+Comp8: comp_223 port map(v19,v20,v21,Cp8);
+
+v22 <= Cp4(2) & Cp4(1) & Cp3(3);
+
+Comp9: comp_3 port map(v22,Cp9);
+
+----- 3° Nível -------------------------------------------------
+
+
 
 end architecture;
