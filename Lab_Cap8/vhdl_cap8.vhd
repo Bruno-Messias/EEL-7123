@@ -219,5 +219,6 @@ Sum0: adder_7bits port map(A_sum, B_sum,'0', S_sum);
 
 ---- Output -------------------------------------------------------
 
+S <= S_sum & Cp14(1) & Cp14(0) & Cp13(0) & Cp10(0) & Cp6(0) & '0';
 
 end architecture;
