@@ -27,7 +27,7 @@ signal cp12: std_logic_vector(2 downto 0);
 signal cp13: std_logic_vector(1 downto 0);
 signal cp14, cp15, cp16: std_logic_vector(2 downto 0);
 signal cp17: std_logic_vector(1 downto 0);
------------------------------------------------------------
+---------------------------------------------------------------------
 signal v1: std_logic_vector(2 downto 0);
 signal v2,v3,v4,v5,v6,v7: std_logic_vector(2 downto 0);
 signal v8: std_logic_vector(3 downto 0);
@@ -44,7 +44,9 @@ signal v25,v26: std_logic_vector(1 downto 0);
 signal v27: std_logic_vector(2 downto 0);
 signal v28, v29, v30, v31, v32, v33: std_logic_vector( 1 downto 0);
 signal v34: std_logic_vector(2 downto 0);
-
+---------------------------------------------------------------------
+signal A_sum, B_sum: std_logic_vector(6 downto 0);
+signal S_sum: std_logic_vector(7 downto 0);
 
 --Components
 component comp_223 is
@@ -107,7 +109,7 @@ end component;
 --Logic
 begin 
 
----- 1° Nível ---------------------------------------------------
+---- 1° Nível ----------------------------------------------------
 
 v1 <= '1' & D(3) & D(3);
 
@@ -141,7 +143,7 @@ V14 <= A(3) & B(3) & C(3);
 
 Comp5: comp_223 port map(v12,v13,v14,Cp5);
 
------ 2° Nível -------------------------------------------------
+----- 2° Nível ----------------------------------------------------
 
 v15 <= Cp0(1) & A(0);
 v16 <= Cp0(0) & '1';
@@ -163,7 +165,7 @@ v22 <= Cp4(2) & Cp4(1) & Cp3(3);
 
 Comp9: comp_3 port map(v22,Cp9);
 
------ 3° Nível -------------------------------------------------
+----- 3° Nível ----------------------------------------------------
 
 v23 <= Cp2(0) & Cp1(0) & Cp6(1);
 
@@ -179,13 +181,13 @@ v26 <= Cp9(0) & Cp5(0);
   
 Comp12: comp_22 port map(v26,v25,Cp12);
 
------ 4° Nível -------------------------------------------------
+----- 4° Nível ----------------------------------------------------
 
 v27 <= Cp10(1) & Cp6(2) & Cp7(0);
 
 Comp13: comp_3 port map(v27,Cp13);
 
------ 5° Nível -------------------------------------------------
+----- 5° Nível ----------------------------------------------------
 
 v28 <= Cp7(2) & Cp8(0);
 v29 <= Cp13(1) & Cp7(1);
@@ -202,10 +204,20 @@ v33 <= Cp12(2) & Cp5(2);
   
 Comp16: comp_22 port map(v32,v33,Cp16);
 
------ 6° Nível -------------------------------------------------
+----- 6° Nível ----------------------------------------------------
 
 v34 <= Cp16(2) & Cp5(3) & D(2);
 
 Comp17: comp_3 port map(v34,Cp17);
+
+---- Somador ------------------------------------------------------
+
+A_sum <= Cp17(1) & Cp17(0) & Cp16(1) & Cp16(0) & Cp15(1) & Cp15(0) & Cp14(2);
+B_sum <= D(3) & "00" & Cp15(2) & "00" & Cp11(0);
+
+Sum0: adder_7bits port map(A_sum, B_sum,'0', S_sum);
+
+---- Output -------------------------------------------------------
+
 
 end architecture;
