@@ -25,6 +25,8 @@ signal cp7, cp8: std_logic_vector(3 downto 0);
 signal cp9, cp10, cp11: std_logic_vector(1 downto 0);
 signal cp12: std_logic_vector(2 downto 0);
 signal cp13: std_logic_vector(1 downto 0);
+signal cp14, cp15, cp16: std_logic_vector(2 downto 0);
+signal cp17: std_logic_vector(1 downto 0);
 -----------------------------------------------------------
 signal v1: std_logic_vector(2 downto 0);
 signal v2,v3,v4,v5,v6,v7: std_logic_vector(2 downto 0);
@@ -40,6 +42,9 @@ signal v19, v20: std_logic_vector(1 downto 0);
 signal v21, v22, v23, v24: std_logic_vector(2 downto 0);
 signal v25,v26: std_logic_vector(1 downto 0);
 signal v27: std_logic_vector(2 downto 0);
+signal v28, v29, v30, v31, v32, v33: std_logic_vector( 1 downto 0);
+signal v34: std_logic_vector(2 downto 0);
+
 
 --Components
 component comp_223 is
@@ -182,5 +187,25 @@ Comp13: comp_3 port map(v27,Cp13);
 
 ----- 5° Nível -------------------------------------------------
 
+v28 <= Cp7(2) & Cp8(0);
+v29 <= Cp13(1) & Cp7(1);
+  
+Comp14: comp_22 port map(v28,v29,Cp14);
+
+v30 <= Cp11(1) & Cp8(2);
+v31 <= Cp12(0) & Cp5(0);
+  
+Comp15: comp_22 port map(v30,v31,Cp15);
+
+v32 <= Cp12(1) & Cp5(1);
+v33 <= Cp12(2) & Cp5(2);
+  
+Comp16: comp_22 port map(v32,v33,Cp16);
+
+----- 6° Nível -------------------------------------------------
+
+v34 <= Cp16(2) & Cp5(3) & D(2);
+
+Comp17: comp_3 port map(v34,Cp17);
 
 end architecture;

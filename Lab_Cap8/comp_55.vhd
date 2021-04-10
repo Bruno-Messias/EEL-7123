@@ -34,7 +34,7 @@ end component;
 begin
 	Comp0: fulladder port map(A(4), A(3), A(2), cp0_s, cp0_cout); 
 	Comp1: fulladder port map(B(2), A(1), A(0), cp1_s, cp1_cout);
-	Comp2: fulladder port map(B(3), cp1_s, cp0_cout, cp2_s, cp2_cout);	
+	Comp2: fulladder port map(B(3), cp1_s, cp0_cout, cp2_s, cp2_cout);	--Corrigir!
 	Comp3: fulladder port map(A(1), A(0), cp0_cout, S(0), cp3_cout);
 	Comp4: fulladder port map(B(4), cp2_s, cp3_cout, S(1), cp4_cout);
 	Comp5: fulladder port map(cp1_cout, cp2_cout, cp4_cout, S(2), S(3));
