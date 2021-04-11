@@ -127,19 +127,19 @@ v7 <= D(3) & D(3) & D(3);
 
 Comp2: comp_333 port map(v7,v6,v5,Cp2);
 
-v8 <= A(1) & B(3) & B(1) & C(1);
-v9 <= A(3) & A(0) & B(3) & B(2) & B(0) & C(3) & not(C(0));
+v8 <= A(1) & B(3) & B(1) & C(1); 
+v9 <= A(3) & A(0) & B(3) & B(2) & B(0) & C(3) & not(C(0)); 
 
-Comp3: comp_47 port map(v9,v8,Cp3);
+Comp3: comp_47 port map(v9,v8,Cp3); 
 
 v10 <= C(1) & D(3);
-v11 <= A(2) & B(2) & C(2) & C(0) & D(2);
+v11 <= A(2) & B(2) & C(2) & C(0) & D(2); 
 
 Comp4: comp_25 port map(v10,v11,Cp4);
 
-v12 <= C(3) & D(1);
-v13 <= C(2) & D(0);
-V14 <= A(3) & B(3) & C(3);
+v12 <= C(3) & D(1); 
+v13 <= C(2) & D(0); 
+V14 <= A(3) & B(3) & C(3); 
 
 Comp5: comp_223 port map(v12,v13,v14,Cp5);
 
@@ -177,7 +177,7 @@ v24 <= Cp8(1) & Cp7(3) & C(0);
 Comp11: comp_3 port map(v24,Cp11);
 
 v25 <= Cp9(1) & Cp4(3);
-v26 <= Cp9(0) & Cp5(0);
+v26 <= Cp8(3) & Cp9(0);
   
 Comp12: comp_22 port map(v26,v25,Cp12);
 
@@ -192,7 +192,7 @@ Comp13: comp_3 port map(v27,Cp13);
 v28 <= Cp7(2) & Cp8(0);
 v29 <= Cp13(1) & Cp7(1);
   
-Comp14: comp_22 port map(v29,v28,Cp14); --Corrigido(entrada v29 -> v28)
+Comp14: comp_22 port map(v29,v28,Cp14); 
 
 v30 <= Cp11(1) & Cp8(2);
 v31 <= Cp12(0) & Cp5(0);
@@ -212,8 +212,8 @@ Comp17: comp_3 port map(v34,Cp17);
 
 ---- Somador ------------------------------------------------------
 
-A_sum <= Cp17(1) & Cp17(0) & Cp16(1) & Cp16(0) & Cp15(1) & Cp15(0) & Cp14(2);
-B_sum <= D(3) & "00" & Cp15(2) & "00" & Cp11(0);
+A_sum <= Cp17(1) & Cp17(0) & Cp16(1) & Cp15(2) & Cp15(1) & Cp15(0) & Cp14(2);
+B_sum <= D(3) & "00" & Cp16(0) & "00" & Cp11(0);
 
 Sum0: adder_7bits port map(A_sum, B_sum,'0', S_sum);
 

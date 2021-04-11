@@ -8,10 +8,10 @@ use ieee.numeric_std.all;
 
 entity comp_223 is
   port(
-    A:	in std_logic_vector(1 downto 0);
-    B:	in std_logic_vector(1 downto 0);
-	 C:	in std_logic_vector(2 downto 0);
-    S:	out std_logic_vector(3 downto 0));
+    A:	in std_logic_vector(1 downto 0); 
+    B:	in std_logic_vector(1 downto 0); 
+	 C:	in std_logic_vector(2 downto 0); 
+    S:	out std_logic_vector(3 downto 0)); 
 end entity;
  
 architecture rtl of comp_223 is
@@ -31,6 +31,6 @@ end component;
 --Logic
 begin
 	Comp0: fulladder port map(C(2), C(1), C(0), S(0), cp0_cout); 
-	Comp1: fulladder port map(B(1), B(0), cp0_cout, S(1), cp1_cout);
+	Comp1: fulladder port map(B(1), B(0), cp0_cout, S(1), cp1_cout); 
 	Comp2: fulladder port map(A(1), A(0), cp1_cout, S(2), S(3));
 end architecture;
