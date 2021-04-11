@@ -1,0 +1,160 @@
+# Reading pref.tcl
+# do VHDL_Cap9_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/adder_16bits.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:21:25 on Apr 11,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/adder_16bits.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity adder_16bits
+# -- Compiling architecture circuito_logico of adder_16bits
+# End time: 18:21:25 on Apr 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/fulladder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:21:26 on Apr 11,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/fulladder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fulladder
+# -- Compiling architecture rtl of fulladder
+# End time: 18:21:26 on Apr 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/mux41.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:21:26 on Apr 11,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/mux41.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux41
+# -- Compiling architecture mux_estr of mux41
+# End time: 18:21:26 on Apr 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/registrador_en.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:21:26 on Apr 11,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/registrador_en.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity registrador_en
+# -- Compiling architecture behv of registrador_en
+# End time: 18:21:26 on Apr 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/shift_l.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:21:26 on Apr 11,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/shift_l.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity shift_l
+# -- Compiling architecture shift of shift_l
+# End time: 18:21:26 on Apr 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/shift_r.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:21:26 on Apr 11,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/shift_r.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity shift_r
+# -- Compiling architecture shift of shift_r
+# End time: 18:21:27 on Apr 11,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/multimodo.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:21:27 on Apr 11,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/multimodo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity multimodo
+# -- Compiling architecture rtl of multimodo
+# End time: 18:21:27 on Apr 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.multimodo(rtl)
+# vsim work.multimodo(rtl) 
+# Start time: 18:21:30 on Apr 11,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.multimodo(rtl)
+# Loading work.adder_16bits(circuito_logico)
+# Loading work.fulladder(rtl)
+# Loading work.shift_r(shift)
+# Loading work.shift_l(shift)
+# Loading work.mux41(mux_estr)
+# Loading work.registrador_en(behv)
+add wave -position insertpoint  \
+sim:/multimodo/SW \
+sim:/multimodo/Sel \
+sim:/multimodo/rst \
+sim:/multimodo/en
+force -freeze sim:/multimodo/rst 0 0
+force -freeze sim:/multimodo/en 1 0, 0 {50 ps} -r 100
+force -freeze sim:/multimodo/Sel 00 0
+force -freeze sim:/multimodo/SW 0000000000000001 0
+run
+add wave -position insertpoint  \
+sim:/multimodo/LEDR
+run
+run
+run
+run
+restart
+force -freeze sim:/multimodo/SW 0000000000000001 0
+force -freeze sim:/multimodo/Sel 00 0
+force -freeze sim:/multimodo/rst 1 0
+force -freeze sim:/multimodo/en 1 0, 0 {50 ps} -r 100
+run
+run
+run
+run
+run
+force -freeze sim:/multimodo/rst 0 0
+run
+force -freeze sim:/multimodo/rst 1 0
+run
+run
+run
+run
+run
+force -freeze sim:/multimodo/Sel 01 0
+run
+run
+run
+force -freeze sim:/multimodo/Sel 10 0
+run
+run
+run
+force -freeze sim:/multimodo/Sel 01 0
+run
+run
+noforce sim:/multimodo/Sel
+force -freeze sim:/multimodo/Sel 11 0
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 18:28:44 on Apr 11,2021, Elapsed time: 0:07:14
+# Errors: 0, Warnings: 0
