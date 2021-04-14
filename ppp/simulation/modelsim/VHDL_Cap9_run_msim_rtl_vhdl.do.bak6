@@ -1,0 +1,15 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/adder_16bits.vhd}
+vcom -93 -work work {C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/fulladder.vhd}
+vcom -93 -work work {C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/mux41.vhd}
+vcom -93 -work work {C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/registrador_en.vhd}
+vcom -93 -work work {C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/shift_l.vhd}
+vcom -93 -work work {C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/shift_r.vhd}
+vcom -93 -work work {C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/multimodo.vhd}
+

@@ -23,9 +23,9 @@ Vc2I9S?3`CIEEUh8iZBdAl1
 !s100 7J?hPHez3SfC5>]J4Uj=10
 Z6 OV;C;2020.1;71
 31
-Z7 !s110 1618176085
+Z7 !s110 1618233762
 !i10b 1
-Z8 !s108 1618176085.000000
+Z8 !s108 1618233761.000000
 Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/adder_16bits.vhd|
 Z10 !s107 C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/adder_16bits.vhd|
 !i113 1
@@ -64,11 +64,11 @@ V]Q=>>Zdk`=QbcN<E9bH]]1
 !s100 U]0NN6gcRD7P<H?A[>cQD3
 R6
 31
-Z16 !s110 1618176086
+R7
 !i10b 1
-Z17 !s108 1618176086.000000
-Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/fulladder.vhd|
-Z19 !s107 C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/fulladder.vhd|
+Z16 !s108 1618233762.000000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/fulladder.vhd|
+Z18 !s107 C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/fulladder.vhd|
 !i113 1
 R11
 R12
@@ -83,32 +83,32 @@ VlSe73[WcOC?mM@lM<cW891
 !s100 WI>CCDc;4b@bZdEonf^fk3
 R6
 31
-R16
+R7
 !i10b 1
+R16
 R17
 R18
-R19
 !i113 1
 R11
 R12
 Emultimodo
-Z20 w1618175764
+Z19 w1618175764
 R2
 R3
 !i122 6
 R0
-Z21 8C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/multimodo.vhd
-Z22 FC:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/multimodo.vhd
+Z20 8C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/multimodo.vhd
+Z21 FC:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/multimodo.vhd
 l0
 L9 1
 V@NGL1OHL8@GDLb0aPf_?M0
 !s100 IUQoM8fK`o^adaj>1G4[70
 R6
 31
-Z23 !s110 1618176087
+Z22 !s110 1618233763
 !i10b 1
-Z24 !s108 1618176087.000000
-Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/multimodo.vhd|
+Z23 !s108 1618233763.000000
+Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/multimodo.vhd|
 !s107 C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/multimodo.vhd|
 !i113 1
 R11
@@ -124,33 +124,33 @@ VZnaPFAN5C>D<H`ch7>=H32
 !s100 4eBF2n9i?Z0Q1hzd;]iPU3
 R6
 31
-R23
+R22
 !i10b 1
+R23
 R24
-R25
-Z26 !s107 C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/multimodo.vhd|
+Z25 !s107 C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/multimodo.vhd|
 !i113 1
 R11
 R12
 Emux41
-Z27 w1618166353
+Z26 w1618166353
 R2
 R3
 !i122 2
 R0
-Z28 8C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/mux41.vhd
-Z29 FC:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/mux41.vhd
+Z27 8C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/mux41.vhd
+Z28 FC:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/mux41.vhd
 l0
 L5 1
 V:0:MmX]hQINjaIJ]=OP_K1
 !s100 f8aT^4WB<>56VS>Ln7WKE1
 R6
 31
-R16
+R7
 !i10b 1
-R17
-Z30 !s90 -reportprogress|300|-93|-work|work|C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/mux41.vhd|
-Z31 !s107 C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/mux41.vhd|
+R16
+Z29 !s90 -reportprogress|300|-93|-work|work|C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/mux41.vhd|
+Z30 !s107 C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/mux41.vhd|
 !i113 1
 R11
 R12
@@ -160,38 +160,38 @@ R3
 DEx4 work 5 mux41 0 22 :0:MmX]hQINjaIJ]=OP_K1
 !i122 2
 l17
-Z32 L16 7
+Z31 L16 7
 V438bW1SeYFVIG=oo<JE^K1
 !s100 =zX@XNVea?c60iz:0QL_V3
 R6
 31
-R16
+R7
 !i10b 1
-R17
+R16
+R29
 R30
-R31
 !i113 1
 R11
 R12
 Eregistrador_en
-Z33 w1618173822
+Z32 w1618173822
 R2
 R3
 !i122 3
 R0
-Z34 8C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/registrador_en.vhd
-Z35 FC:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/registrador_en.vhd
+Z33 8C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/registrador_en.vhd
+Z34 FC:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/registrador_en.vhd
 l0
 L4 1
 VGI^ROm]dMUFL^;m^V@_i62
 !s100 mPeQ_En>TWHOiXg<XWn>C3
 R6
 31
-R16
+R22
 !i10b 1
-R17
-Z36 !s90 -reportprogress|300|-93|-work|work|C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/registrador_en.vhd|
-Z37 !s107 C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/registrador_en.vhd|
+R16
+Z35 !s90 -reportprogress|300|-93|-work|work|C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/registrador_en.vhd|
+Z36 !s107 C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/registrador_en.vhd|
 !i113 1
 R11
 R12
@@ -206,33 +206,33 @@ VBmA=Rh;8i4_:2=j<M4gVl1
 !s100 :ccZNmZAVI8UFC@U=FU[e0
 R6
 31
-R16
+R22
 !i10b 1
-R17
+R16
+R35
 R36
-R37
 !i113 1
 R11
 R12
 Eshift_l
-Z38 w1618167017
+Z37 w1618167017
 R2
 R3
 !i122 4
 R0
-Z39 8C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/shift_l.vhd
-Z40 FC:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/shift_l.vhd
+Z38 8C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/shift_l.vhd
+Z39 FC:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/shift_l.vhd
 l0
 L8 1
 V]0M=^>mdM^FT:ZZl[Ya660
 !s100 ]3EY5EV<B:?e?E80VE]?z3
 R6
 31
-R16
+R22
 !i10b 1
-R17
-Z41 !s90 -reportprogress|300|-93|-work|work|C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/shift_l.vhd|
-Z42 !s107 C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/shift_l.vhd|
+R23
+Z40 !s90 -reportprogress|300|-93|-work|work|C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/shift_l.vhd|
+Z41 !s107 C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/shift_l.vhd|
 !i113 1
 R11
 R12
@@ -242,38 +242,38 @@ R3
 DEx4 work 7 shift_l 0 22 ]0M=^>mdM^FT:ZZl[Ya660
 !i122 4
 l17
-R32
+R31
 VN4RNWeQ2BC``OnDTm00^@1
 !s100 flPI<lD6YS727TG<0PM@00
 R6
 31
-R16
+R22
 !i10b 1
-R17
+R23
+R40
 R41
-R42
 !i113 1
 R11
 R12
 Eshift_r
-Z43 w1618167015
+Z42 w1618167015
 R2
 R3
 !i122 5
 R0
-Z44 8C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/shift_r.vhd
-Z45 FC:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/shift_r.vhd
+Z43 8C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/shift_r.vhd
+Z44 FC:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/shift_r.vhd
 l0
 L8 1
 Vi^OTIg]SNf7_5F4Gd04b[1
 !s100 N5mc]cQW=]d;9Bcd^86NI2
 R6
 31
-R16
+R22
 !i10b 1
-R17
-Z46 !s90 -reportprogress|300|-93|-work|work|C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/shift_r.vhd|
-Z47 !s107 C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/shift_r.vhd|
+R23
+Z45 !s90 -reportprogress|300|-93|-work|work|C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/shift_r.vhd|
+Z46 !s107 C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap9/shift_r.vhd|
 !i113 1
 R11
 R12
@@ -288,11 +288,11 @@ VF22ClmaEn^ERDKj0MRnO71
 !s100 <H5QKPU]UX^gbVN<hg?o:1
 R6
 31
-R16
+R22
 !i10b 1
-R17
+R23
+R45
 R46
-R47
 !i113 1
 R11
 R12
