@@ -1,0 +1,175 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap11/simulation/modelsim
+Eadder_3bits
+Z1 w1619741847
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+R0
+Z4 8C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap11/adder_3bits.vhd
+Z5 FC:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap11/adder_3bits.vhd
+l0
+L9 1
+VR@oV>b:`CY?Tl11j04zfW3
+!s100 k2aBlMl:L_CS@jiW<^m=22
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1619745319
+!i10b 1
+Z8 !s108 1619745319.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap11/adder_3bits.vhd|
+Z10 !s107 C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap11/adder_3bits.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Acircuito_logico
+R2
+R3
+DEx4 work 11 adder_3bits 0 22 R@oV>b:`CY?Tl11j04zfW3
+!i122 2
+l28
+L16 24
+V`EbXXbQ8SDE^W`?>m6A?71
+!s100 bCho?CL>SOSKkNZ9F`B`T2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eamm
+Z13 w1619744282
+R2
+R3
+!i122 3
+R0
+Z14 8C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap11/AMM.vhd
+Z15 FC:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap11/AMM.vhd
+l0
+L6 1
+VA^1l7bdnMagZ1T[4]TCRa0
+!s100 5cClbL_[h?@g7C>jFiA>W1
+R6
+31
+Z16 !s110 1619745320
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap11/AMM.vhd|
+!s107 C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap11/AMM.vhd|
+!i113 1
+R11
+R12
+Avhdl
+R2
+R3
+DEx4 work 3 amm 0 22 A^1l7bdnMagZ1T[4]TCRa0
+!i122 3
+l51
+L18 65
+VkRVFBoj;MFGAlEa0F3Xk@2
+!s100 TgW>NN2dV5<>eQaeL=eH03
+R6
+31
+R16
+!i10b 1
+R8
+R17
+Z18 !s107 C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap11/AMM.vhd|
+!i113 1
+R11
+R12
+Efulladder
+Z19 w1619740861
+R2
+R3
+!i122 1
+R0
+Z20 8C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap11/fulladder.vhd
+Z21 FC:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap11/fulladder.vhd
+l0
+L7 1
+Vk^m2?Ujim]nd8GZN`2ZQV2
+!s100 WdZm]I1K9VNNI]e@oAI<=1
+R6
+31
+R7
+!i10b 1
+R8
+Z22 !s90 -reportprogress|300|-93|-work|work|C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap11/fulladder.vhd|
+Z23 !s107 C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap11/fulladder.vhd|
+!i113 1
+R11
+R12
+Acircuito_logico
+R2
+R3
+DEx4 work 9 fulladder 0 22 k^m2?Ujim]nd8GZN`2ZQV2
+!i122 1
+l22
+L18 13
+V2jF0VZSOg6CWzL>z1i55a0
+!s100 O<[mlPfA9Oc;Icj5D0XX?0
+R6
+31
+R7
+!i10b 1
+R8
+R22
+R23
+!i113 1
+R11
+R12
+Emult
+Z24 w1619740605
+R2
+R3
+!i122 0
+R0
+Z25 8C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap11/mult.vhd
+Z26 FC:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap11/mult.vhd
+l0
+L5 1
+V^;5X8TldOk`V0O?jAIgEQ0
+!s100 LI7Ii0n^60F<S90Tz41MJ0
+R6
+31
+R7
+!i10b 1
+Z27 !s108 1619745318.000000
+Z28 !s90 -reportprogress|300|-93|-work|work|C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap11/mult.vhd|
+Z29 !s107 C:/Users/bruno/OneDrive - UFSC/GitHub/EEL-7123/Lab_Cap11/mult.vhd|
+!i113 1
+R11
+R12
+Amux_estr
+R2
+R3
+DEx4 work 4 mult 0 22 ^;5X8TldOk`V0O?jAIgEQ0
+!i122 0
+l17
+L13 17
+VIO5@1=bYeL?3AnIGGjjS]1
+!s100 SUbizjdl7BY^ikW9Sd]km1
+R6
+31
+R7
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R11
+R12
