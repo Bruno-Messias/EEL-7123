@@ -15,8 +15,7 @@ use IEEE.STD_LOGIC_1164.all;
 entity traditionalSystem_BinToRNS is
 	generic (n : natural := 4);
 	port(SW    : in STD_LOGIC_VECTOR(15 downto 0);
-		  LEDR : out STD_LOGIC_VECTOR(16 downto 0);
-        HEX0,HEX1,HEX2,HEX3,HEX4,HEX5,HEX6,HEX7: out std_logic_vector(6 downto 0));
+		  LEDR : out STD_LOGIC_VECTOR(16 downto 0));
 end traditionalSystem_BinToRNS;
 
 architecture Structural of traditionalSystem_BinToRNS is
@@ -57,7 +56,7 @@ architecture Structural of traditionalSystem_BinToRNS is
          );
   end component;
   
-signal zeros , cor : std_logic_vector(n-1 downto 0);
+signal cor : std_logic_vector(n-1 downto 0);
 signal sum0_2n_m1 , carry0_2n_m1 : std_logic_vector(n-1 downto 0);
 signal sum1_2n_m1 , carry1_2n_m1 : std_logic_vector(n-1 downto 0);
 
@@ -71,7 +70,6 @@ signal notSW : std_logic_vector(4*n-1 downto 0);
 
 begin
 	-- enter your statements here -- 
-zeros <= (others =>'0');
 cor <= ("0001");	
 notSW(4*n-1 downto 0) <= not(SW(4*n-1 downto 0)); -- Para obter os negativos das entradas
 

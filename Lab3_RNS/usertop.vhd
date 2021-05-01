@@ -10,21 +10,18 @@ entity usertop is port(
 	SW:in std_logic_vector(17 downto 0);
 	LEDR:out std_logic_vector(17 downto 0);
 	HEX0,HEX1,HEX2,HEX3,HEX4,HEX5,HEX6,HEX7: out std_logic_vector(6 downto 0));
-	
 end usertop;
 
 architecture compile of usertop is
 
-component traditionalSystem_BinToRNS is
-	generic (n : natural := 4);
-	port(SW    : in STD_LOGIC_VECTOR(15 downto 0);
-		  LEDR : out STD_LOGIC_VECTOR(16 downto 0);
-        HEX0,HEX1,HEX2,HEX3,HEX4,HEX5,HEX6,HEX7: out std_logic_vector(6 downto 0)
-		  );
+component Lab3 is 
+port( SW	: in STD_LOGIC_VECTOR(15 downto 0);
+		C	: in std_LOGIC_VECTOR(1 downto 0); 
+		LEDR : out STD_LOGIC_VECTOR(15 downto 0));
 end component;
 
 begin
 
-	TOP: traditionalSystem_BinToRNS port map(SW => SW(15 downto 0), LEDR => LEDR(16 downto 0));
+	TOP: Lab3 port map(SW(15 downto 0),Sw(17 downto 16),	LEDR(15 downto 0));
 
 end architecture;	

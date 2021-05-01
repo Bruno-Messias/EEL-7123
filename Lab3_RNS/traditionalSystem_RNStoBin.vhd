@@ -12,8 +12,7 @@ use IEEE.STD_LOGIC_1164.all;
 entity traditionalSystem_RNStoBin is
 	generic (n : natural := 4);
 	port(SW    : in STD_LOGIC_VECTOR(16 downto 0);
-		  LEDR : out STD_LOGIC_VECTOR(15 downto 0);
-        HEX0,HEX1,HEX2,HEX3,HEX4,HEX5,HEX6,HEX7: out std_logic_vector(6 downto 0));
+		  LEDR : out STD_LOGIC_VECTOR(15 downto 0));
 end traditionalSystem_RNStoBin;
   
 architecture Structural of traditionalSystem_RNStoBin is

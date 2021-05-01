@@ -1,22 +1,29 @@
+-- Fulladder
+
 library IEEE;
-use IEEE.STD_LOGIC_1164.all;
+use IEEE.Std_Logic_1164.all;
 
+--Entity
 entity fulladder is
-	port(A : in STD_LOGIC;
-		  B : in STD_LOGIC;
-		  Cin : in STD_LOGIC;
-		  S : out STD_LOGIC;
-		  Cout : out STD_LOGIC);
-end fulladder;
+port (A: in std_logic;
+		B: in std_logic;
+		Cin: in std_logic;
+		S: out std_logic;
+		Cout: out std_logic);
+end entity;
 
---}} End of automatically maintained section
 
-architecture structural of fulladder is
-	
+-- Architecture
+architecture circuito_logico of fulladder is
+--Signal
+signal F1, F2, F3: std_logic;
+
 begin
 
--- enter your statements here --
-S 		<=	 A xor B xor Cin ;
-Cout 	<= (A and B ) or ( Cin  and ( A or B));
+F1 <= A xor B;
+F2 <= A and B;
+S <= F1 xor Cin;
+F3 <= F1 and Cin;
+Cout <= F3 or F2;
 
-end structural;
+end architecture;
