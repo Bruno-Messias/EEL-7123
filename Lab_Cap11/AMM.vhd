@@ -25,13 +25,6 @@ signal cpa_out : std_logic_vector(3 downto 0);
 
 
 --Componets
-component mult is
-port (A: in std_logic_vector (2 downto 0);
-		B: in std_logic_vector (1 downto 0);
-		S: out std_logic_vector(5 downto 0)
-		);
-end component;
-
 component fulladder is
 port (A: in std_logic;
 		B: in std_logic;
@@ -50,8 +43,8 @@ end component;
 
 begin
 
-MULT0: mult port map(A, B, AB);
-MULT1: mult port map(C, D, CD);
+AB <= (A(2) and B(1)) & (A(1) and B(1)) & (A(0) and B(1)) & (A(2) and B(0)) & (A(1) and B(0)) & (A(0) and B(0));
+CD <= (C(2) and D(1)) & (C(1) and D(1)) & (C(0) and D(1)) & (C(2) and D(0)) & (C(1) and D(0)) & (C(0) and D(0));
 
 -- Primiero Nível
 

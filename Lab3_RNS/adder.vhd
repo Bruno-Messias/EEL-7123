@@ -1,4 +1,4 @@
---Adder 3bits
+--Adder 
 --Author: bruno C. Messias
 --Date: 16/02/21
 
